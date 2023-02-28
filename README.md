@@ -1,11 +1,10 @@
 # SfMLearner with Transformer Depth Net
-This [branch](https://github.com/gswatipenn/SfmLearner-Pytorch/tree/transformer_nets) builds on top of the [master](https://github.com/gswatipenn/SfmLearner-Pytorch/tree/master) branch and replaces CNN based Depth-Net with DPT transformer network for more accurate depth estimation. For specifics related to the master branch (i.e. original code forked from [ClementPinard/SfmLearner-Pytorch](https://github.com/ClementPinard/SfmLearner-Pytorch)), refer to it's README instead. 
-This README talks about only the diff from original and additional specs.
+This repository builds on top of the [ClementPinard/SfmLearner-Pytorch](https://github.com/ClementPinard/SfmLearner-Pytorch) repository and replaces CNN based Depth-Net with DPT transformer network for more accurate depth estimation. For specifics related to the original repository, refer to it's README instead. This README talks about only the difference from the original and additional specifications.
 
-Modified Pytorch implementation : Swati Gupta (gswati@seas.upenn.edu), Manasa Sathyan (msathyan@seas.upenn.edu)
+Modified Pytorch implementation : Manasa Sathyan (msathyan@seas.upenn.edu), Swati Gupta (gswati@seas.upenn.edu)
 
 ## Preamble
-This codebase was developed and tested with Pytorch 1.13.0, CUDA 11.7 and Debian GNU/Linux 10. Original code was developed in Pytorch 1.0.1, you can access it in the [master](https://github.com/gswatipenn/SfmLearner-Pytorch/tree/master) branch.
+This codebase was developed and tested with Pytorch 1.13.0, CUDA 11.7 and Debian GNU/Linux 10. T original code was developed in Pytorch 1.0.1.
 
 ## Prerequisite
 
